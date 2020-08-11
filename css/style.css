@@ -1,7 +1,7 @@
 
 body{
     width: 95%;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 
     background: url(/img/imgFundo.jpg);
@@ -9,67 +9,66 @@ body{
     background-size: cover;
     background-attachment: fixed;
     
-
     font-family: 'Lato';
     line-height: 1.5;
     color: black;
     text-align: center;
-
 }
-
 main{
     background: #32ef522e;  
     padding: 5px 40px;
-    margin-top: 20px;
+    margin: 40px;
     border-radius: 10px;
 }
-section{
-
-}
-
+/*Inicio */
 .logo, .titulo, .subTitulo {
     margin: 0;
     text-align: center;
 }
 
-.reciclaveis{
-    max-width: 20rem;
-
-
+/*Blocos de informações - CARDS*/
+.plast {
+    background: #f00808;
 }
-.plastico table {
-    background: #f11919c9;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px auto;
+.org {
+    background: #793d27;
 }
-.papel table {
-    background: #1b56c1c9;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px auto;
-}
-.vidro table {
-    background: #5aad25c9;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px auto;
-}
-.organico table {
-    background: #793d27c9;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px auto;
-}
-.metal table {
+.metal {
     background: #e2d20bc9;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px auto;
 }
-.oleoDeCozinha table {
-    background: #e43e0ac9;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px auto;
+.odc {
+    background: #e43e0a;
 }
+.corbtn {
+    background: black;
+}
+
+/* Form*/
+/* input {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+input:hover, input:focus {
+    border-color: green;
+    color: black;
+    font-weight: bold;
+}
+.enviar {
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+form, input, label {
+    margin-left: 40px;
+} */
